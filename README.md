@@ -18,3 +18,5 @@ Assets are from [Kenney.nl](https://kenney.nl/)
 # Program arguments
 - `java -jar sokoban.jar 10 10 3` - to start the game with 10x10 grid and 3 crates
 - `java -jar sokoban.jar 10 10` - to start the game with 10x10 grid and default crates (which is 1)
+
+![](image.png)
