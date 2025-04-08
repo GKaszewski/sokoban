@@ -27,7 +27,7 @@ public class World {
     private boolean isGameOver = false;
 
     public World() {
-        this.width = 5;
+        this.width = 6;
         this.height = 10;
         this.crateCount = 2;
 
@@ -145,7 +145,7 @@ public class World {
             return getRandomEmptyPosition();
         }
 
-        return new int[]{x, y};
+        return new int[] { x, y };
     }
 
     private void addWallsToStaticEntities() {
